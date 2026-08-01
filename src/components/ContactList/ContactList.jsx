@@ -1,8 +1,6 @@
 import { Contact, Text } from "./ContactList.styled";
 
 function ContactList({ contacts, onDelete, filter }) {
-  console.log(contacts);
-
   return (
     <ul>
       {contacts
